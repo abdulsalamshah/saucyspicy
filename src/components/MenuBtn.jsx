@@ -5,7 +5,7 @@ const MenuBtn = () => {
   return (
     <div>
       <Link to='/menu'> 
-      <button type='button' className='btn btn-success btn-lg'>Our Full Menu</button>
+      <button type='button' className='btn btn-lg' style={{backgroundColor:'black', color:'white'}}>Our Full Menu</button>
       </Link>
     </div>
   )
